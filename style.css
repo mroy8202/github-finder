@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    color: white;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: #141D2F;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* User Input Container -> start */
+.user-input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.input-container {
+    /* position: absolute; */
+    width: 100%;
+    background-color: #1E2A47;
+    border: none;
+    outline: none;
+    border-radius: 0 1rem 1rem 0;
+    padding: 1.5rem 0;
+    color: white;
+    font-size: 16px;
+}
+
+.input-container::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+.user-search-icon {
+    background-color: #1E2A47;
+    padding: 1.5rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.btn {
+    position: absolute;
+    right: 0%;
+    margin-right: 10px;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: rgb(0,121,255);
+}
+
+.btn:hover {
+    background-color: #60ABFF;
+    cursor: pointer;
+}
+/* User Input Container -> end */
+
+/* information container -> start */
+.information-container {
+    background-color: #1E2A47;
+    border-radius: 1rem;
+    display: flex;
+    padding: 3rem 2.5rem;
+    gap: 3rem;
+}
+
+.user-image {
+    width: 117px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.user-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.user-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-email {
+    color: #0079ff;
+}
+
+.joining-date {
+    padding-top: .5rem;
+}
+
+.about-user {
+    width: 70%;
+}
+
+.desc {
+    color: #ABAFBA;
+}
+
+.credit-details {
+    background-color: #141D2F;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.credit-box {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.hyperlink-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.upper-div {
+    display: flex;
+    gap: 1rem;
+}
+
+.hyperlink-details {
+    display: flex;
+    gap: 1rem;
+    width: 48%;
+}
+
+.hyperlink-info {
+    word-break: break-all;
+}
+/* information container -> end */
+
+
